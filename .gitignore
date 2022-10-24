@@ -142,3 +142,4 @@ SourcePackages/
 TestResults/
 fastlane/apple-app-site-association
 *.xcodeproj/project.xcworkspace/xcuserdata/
+HandToHand.xcodeproj/xcuserdata/emil.xcuserdatad
