@@ -1,0 +1,33 @@
+### Headers settings
+company: Emil Karimov
+
+### Xcode project settings
+project_name: HandToHand
+xcodeproj_path: HandToHand.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: HandToHand
+
+# The file path for new modules
+project_file_path: HandToHand/Modules/
+
+# The Xcode group path to new modules
+project_group_path: HandToHand/Modules/
+
+### Tests generation settings section
+# The tests target name
+test_target: HandToHandTests
+
+# The file path for new tests
+test_file_path: HandToHandTests/Modules/
+
+# The Xcode group path to new tests
+test_group_path: HandToHandTests/Modules/
+
+### Templates
+catalogs:
+- 'git@github.com:emvakar/generamba_templates.git'
+templates:
+- {name: ios_base}
+- {name: ios_viper}

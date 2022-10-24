@@ -3,6 +3,7 @@
 //  HandToHand
 //
 //  Created by Emil Karimov on 25.10.2022.
+//  Copyright © 2022 Emil Karimov. All rights reserved.
 //
 
 import UIKit
@@ -23,11 +24,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 private extension SceneDelegate {
 
     func configureWindow(with scene: UIScene) {
-        guard let windowScene = (scene as? UIWindowScene) else { return }
-        let window = UIWindow(windowScene: windowScene)
-        let rootController = RootViewController(resolver: resolver)
-        window.rootViewController = rootController
-        self.window = window
+//        guard let windowScene = (scene as? UIWindowScene) else { return }
+//        let window = UIWindow(windowScene: windowScene)
+//        let rootController = RootViewController(resolver: resolver)
+//        window.rootViewController = rootController
+//        self.window = window
     }
 }
 

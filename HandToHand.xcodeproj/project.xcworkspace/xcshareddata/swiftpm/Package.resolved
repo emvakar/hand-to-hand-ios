@@ -1,0 +1,86 @@
+{
+  "pins" : [
+    {
+      "identity" : "ekuikit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/emvakar/EKUIKit.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "989990897382faa5d04c6b5efc37ab66b9ad26b6"
+      }
+    },
+    {
+      "identity" : "nativeuikit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ivanvorobei/NativeUIKit.git",
+      "state" : {
+        "revision" : "bcb42acd73c4044c7e7099bd22a8decf79e74e11",
+        "version" : "1.4.7"
+      }
+    },
+    {
+      "identity" : "snapkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SnapKit/SnapKit.git",
+      "state" : {
+        "revision" : "f222cbdf325885926566172f6f5f06af95473158",
+        "version" : "5.6.0"
+      }
+    },
+    {
+      "identity" : "sparrowkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ivanvorobei/SparrowKit",
+      "state" : {
+        "revision" : "74690b7fcb54f060008878dfb1769eaac225d60b",
+        "version" : "3.6.1"
+      }
+    },
+    {
+      "identity" : "spdiffable",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ivanvorobei/SPDiffable",
+      "state" : {
+        "revision" : "fd80c65d5b63f3c8825f11a06da1f1e91bdf4036",
+        "version" : "4.2.0"
+      }
+    },
+    {
+      "identity" : "sppagecontroller",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ivanvorobei/SPPageController",
+      "state" : {
+        "revision" : "6bf5378947f5ef123d6b65a391c63de97b1ccf77",
+        "version" : "1.3.3"
+      }
+    },
+    {
+      "identity" : "spperspective",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ivanvorobei/SPPerspective",
+      "state" : {
+        "revision" : "0813262760c7388fc821e5068ad31005ac397b9f",
+        "version" : "1.4.1"
+      }
+    },
+    {
+      "identity" : "swift-log",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-log.git",
+      "state" : {
+        "revision" : "6fe203dc33195667ce1759bf0182975e4653ba1c",
+        "version" : "1.4.4"
+      }
+    },
+    {
+      "identity" : "swift-log-telegram",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/emvakar/swift-log-telegram.git",
+      "state" : {
+        "revision" : "7f92cdc708678ef915a7a033fdd45333865d0938",
+        "version" : "0.0.3"
+      }
+    }
+  ],
+  "version" : 2
+}

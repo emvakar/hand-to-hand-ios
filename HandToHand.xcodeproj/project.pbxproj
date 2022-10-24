@@ -7,13 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C557CFFB16E2FABDC6A572D /* BaseInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED87559008B9E964B6F7BE84 /* BaseInteractor.swift */; };
+		11643A0DD5B5B16B1F22B1DB /* BaseBaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED5670E4A805222667C7073 /* BaseBaseTests.swift */; };
 		20EDFB262907236700BD4B8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EDFB252907236700BD4B8C /* AppDelegate.swift */; };
 		20EDFB282907236700BD4B8C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EDFB272907236700BD4B8C /* SceneDelegate.swift */; };
-		20EDFB2F2907236800BD4B8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20EDFB2E2907236800BD4B8C /* Assets.xcassets */; };
+		20EDFB2F2907236800BD4B8C /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20EDFB2E2907236800BD4B8C /* Media.xcassets */; };
 		20EDFB322907236800BD4B8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20EDFB302907236800BD4B8C /* LaunchScreen.storyboard */; };
 		20EDFB3D2907236800BD4B8C /* HandToHandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EDFB3C2907236800BD4B8C /* HandToHandTests.swift */; };
 		20EDFB472907236900BD4B8C /* HandToHandUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EDFB462907236900BD4B8C /* HandToHandUITests.swift */; };
 		20EDFB492907236900BD4B8C /* HandToHandUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EDFB482907236900BD4B8C /* HandToHandUITestsLaunchTests.swift */; };
+		20EDFB5F290729F500BD4B8C /* DispatchHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EDFB57290729F500BD4B8C /* DispatchHelper.swift */; };
+		20EDFB60290729F500BD4B8C /* SearchBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EDFB58290729F500BD4B8C /* SearchBuffer.swift */; };
+		20EDFB61290729F500BD4B8C /* TapticService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EDFB59290729F500BD4B8C /* TapticService.swift */; };
+		20EDFB62290729F500BD4B8C /* SuffixFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EDFB5A290729F500BD4B8C /* SuffixFormatter.swift */; };
+		20EDFB64290729F500BD4B8C /* ScreenSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EDFB5C290729F500BD4B8C /* ScreenSize.swift */; };
+		20EDFB65290729F500BD4B8C /* WeaklyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EDFB5D290729F500BD4B8C /* WeaklyClass.swift */; };
+		20EDFB66290729F500BD4B8C /* ScaleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EDFB5E290729F500BD4B8C /* ScaleHelper.swift */; };
+		20EDFB6A29072B9800BD4B8C /* EKUIKit in Frameworks */ = {isa = PBXBuildFile; productRef = 20EDFB6929072B9800BD4B8C /* EKUIKit */; };
+		3EE054DF2871C46DFABFFDB1 /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D7AC82145918E659961049 /* BasePresenter.swift */; };
+		6A48EC98FDC94CDFB728EC9B /* BaseDIResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DC672595BC8250DDB0754C /* BaseDIResolver.swift */; };
+		938C4AB419B8C3CD8D15DBB5 /* BaseProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7166AD4C3EBCCF39C01EE6 /* BaseProtocols.swift */; };
+		B1AE4AE8C9DBF3035DD2E654 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A55A1DE9E1BFB1A811C4C6 /* BaseViewController.swift */; };
+		F421D6CB5A2EB6BF7FC67FCF /* BaseWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA38D50CBA5FEA26D427A22F /* BaseWireFrame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +52,7 @@
 		20EDFB222907236700BD4B8C /* HandToHand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandToHand.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20EDFB252907236700BD4B8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20EDFB272907236700BD4B8C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		20EDFB2E2907236800BD4B8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20EDFB2E2907236800BD4B8C /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		20EDFB312907236800BD4B8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20EDFB332907236800BD4B8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20EDFB382907236800BD4B8C /* HandToHandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandToHandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +61,20 @@
 		20EDFB462907236900BD4B8C /* HandToHandUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandToHandUITests.swift; sourceTree = "<group>"; };
 		20EDFB482907236900BD4B8C /* HandToHandUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandToHandUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		20EDFB552907237700BD4B8C /* HandToHand.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HandToHand.entitlements; sourceTree = "<group>"; };
+		20EDFB57290729F500BD4B8C /* DispatchHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchHelper.swift; sourceTree = "<group>"; };
+		20EDFB58290729F500BD4B8C /* SearchBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBuffer.swift; sourceTree = "<group>"; };
+		20EDFB59290729F500BD4B8C /* TapticService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapticService.swift; sourceTree = "<group>"; };
+		20EDFB5A290729F500BD4B8C /* SuffixFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuffixFormatter.swift; sourceTree = "<group>"; };
+		20EDFB5C290729F500BD4B8C /* ScreenSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenSize.swift; sourceTree = "<group>"; };
+		20EDFB5D290729F500BD4B8C /* WeaklyClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeaklyClass.swift; sourceTree = "<group>"; };
+		20EDFB5E290729F500BD4B8C /* ScaleHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleHelper.swift; sourceTree = "<group>"; };
+		4ED5670E4A805222667C7073 /* BaseBaseTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseBaseTests.swift; sourceTree = "<group>"; };
+		55D7AC82145918E659961049 /* BasePresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
+		6E7166AD4C3EBCCF39C01EE6 /* BaseProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseProtocols.swift; sourceTree = "<group>"; };
+		91DC672595BC8250DDB0754C /* BaseDIResolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseDIResolver.swift; sourceTree = "<group>"; };
+		A9A55A1DE9E1BFB1A811C4C6 /* BaseViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		BA38D50CBA5FEA26D427A22F /* BaseWireFrame.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseWireFrame.swift; sourceTree = "<group>"; };
+		ED87559008B9E964B6F7BE84 /* BaseInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20EDFB6A29072B9800BD4B8C /* EKUIKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +103,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		063BB6C26819A55139DD6277 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D9181A2FDEC0B9B51A52CE12 /* Base */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		0FD9BF84907A9B79FEF1B63A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A9A55A1DE9E1BFB1A811C4C6 /* BaseViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1C1AD5D0148BA2D53B3C0F53 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A1F5727ABC416DA45E5E8AE8 /* Protocols */,
+				0FD9BF84907A9B79FEF1B63A /* View */,
+				D47EF67FA46AFE859224956F /* Presenter */,
+				260F2544E77B49FE8C1F5FF0 /* WireFrame */,
+				EA8C5CAE58AA7B7946CD39AF /* Interactor */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		20EDFB192907236700BD4B8C = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +157,10 @@
 				20EDFB552907237700BD4B8C /* HandToHand.entitlements */,
 				20EDFB252907236700BD4B8C /* AppDelegate.swift */,
 				20EDFB272907236700BD4B8C /* SceneDelegate.swift */,
-				20EDFB2E2907236800BD4B8C /* Assets.xcassets */,
-				20EDFB302907236800BD4B8C /* LaunchScreen.storyboard */,
-				20EDFB332907236800BD4B8C /* Info.plist */,
+				E4590CA6B96E69B259BE7E69 /* Assembly */,
+				20EDFB6729072A1500BD4B8C /* Resouces */,
+				20EDFB56290729F500BD4B8C /* Helpers */,
+				371EA23AAF8FA32A27161758 /* Modules */,
 			);
 			path = HandToHand;
 			sourceTree = "<group>";
@@ -110,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				20EDFB3C2907236800BD4B8C /* HandToHandTests.swift */,
+				A565CE3A413C9CB0E0A5F5A8 /* Modules */,
 			);
 			path = HandToHandTests;
 			sourceTree = "<group>";
@@ -121,6 +181,94 @@
 				20EDFB482907236900BD4B8C /* HandToHandUITestsLaunchTests.swift */,
 			);
 			path = HandToHandUITests;
+			sourceTree = "<group>";
+		};
+		20EDFB56290729F500BD4B8C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				20EDFB57290729F500BD4B8C /* DispatchHelper.swift */,
+				20EDFB58290729F500BD4B8C /* SearchBuffer.swift */,
+				20EDFB59290729F500BD4B8C /* TapticService.swift */,
+				20EDFB5A290729F500BD4B8C /* SuffixFormatter.swift */,
+				20EDFB5C290729F500BD4B8C /* ScreenSize.swift */,
+				20EDFB5D290729F500BD4B8C /* WeaklyClass.swift */,
+				20EDFB5E290729F500BD4B8C /* ScaleHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		20EDFB6729072A1500BD4B8C /* Resouces */ = {
+			isa = PBXGroup;
+			children = (
+				20EDFB2E2907236800BD4B8C /* Media.xcassets */,
+				20EDFB302907236800BD4B8C /* LaunchScreen.storyboard */,
+				20EDFB332907236800BD4B8C /* Info.plist */,
+			);
+			path = Resouces;
+			sourceTree = "<group>";
+		};
+		260F2544E77B49FE8C1F5FF0 /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				BA38D50CBA5FEA26D427A22F /* BaseWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		371EA23AAF8FA32A27161758 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				1C1AD5D0148BA2D53B3C0F53 /* Base */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		A1F5727ABC416DA45E5E8AE8 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6E7166AD4C3EBCCF39C01EE6 /* BaseProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		A565CE3A413C9CB0E0A5F5A8 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				063BB6C26819A55139DD6277 /* Base */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		D47EF67FA46AFE859224956F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				55D7AC82145918E659961049 /* BasePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D9181A2FDEC0B9B51A52CE12 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4ED5670E4A805222667C7073 /* BaseBaseTests.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		E4590CA6B96E69B259BE7E69 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				91DC672595BC8250DDB0754C /* BaseDIResolver.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		EA8C5CAE58AA7B7946CD39AF /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				ED87559008B9E964B6F7BE84 /* BaseInteractor.swift */,
+			);
+			path = Interactor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +287,9 @@
 			dependencies = (
 			);
 			name = HandToHand;
+			packageProductDependencies = (
+				20EDFB6929072B9800BD4B8C /* EKUIKit */,
+			);
 			productName = HandToHand;
 			productReference = 20EDFB222907236700BD4B8C /* HandToHand.app */;
 			productType = "com.apple.product-type.application";
@@ -212,6 +363,9 @@
 				Base,
 			);
 			mainGroup = 20EDFB192907236700BD4B8C;
+			packageReferences = (
+				20EDFB6829072B9800BD4B8C /* XCRemoteSwiftPackageReference "EKUIKit" */,
+			);
 			productRefGroup = 20EDFB232907236700BD4B8C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -229,7 +383,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20EDFB322907236800BD4B8C /* LaunchScreen.storyboard in Resources */,
-				20EDFB2F2907236800BD4B8C /* Assets.xcassets in Resources */,
+				20EDFB2F2907236800BD4B8C /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,7 +409,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				20EDFB262907236700BD4B8C /* AppDelegate.swift in Sources */,
+				20EDFB62290729F500BD4B8C /* SuffixFormatter.swift in Sources */,
 				20EDFB282907236700BD4B8C /* SceneDelegate.swift in Sources */,
+				20EDFB5F290729F500BD4B8C /* DispatchHelper.swift in Sources */,
+				20EDFB66290729F500BD4B8C /* ScaleHelper.swift in Sources */,
+				20EDFB64290729F500BD4B8C /* ScreenSize.swift in Sources */,
+				20EDFB60290729F500BD4B8C /* SearchBuffer.swift in Sources */,
+				6A48EC98FDC94CDFB728EC9B /* BaseDIResolver.swift in Sources */,
+				938C4AB419B8C3CD8D15DBB5 /* BaseProtocols.swift in Sources */,
+				20EDFB61290729F500BD4B8C /* TapticService.swift in Sources */,
+				20EDFB65290729F500BD4B8C /* WeaklyClass.swift in Sources */,
+				B1AE4AE8C9DBF3035DD2E654 /* BaseViewController.swift in Sources */,
+				3EE054DF2871C46DFABFFDB1 /* BasePresenter.swift in Sources */,
+				F421D6CB5A2EB6BF7FC67FCF /* BaseWireFrame.swift in Sources */,
+				0C557CFFB16E2FABDC6A572D /* BaseInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +431,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20EDFB3D2907236800BD4B8C /* HandToHandTests.swift in Sources */,
+				11643A0DD5B5B16B1F22B1DB /* BaseBaseTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,7 +595,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V93MRMNEKV;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HandToHand/Info.plist;
+				INFOPLIST_FILE = HandToHand/Resouces/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
@@ -458,7 +626,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V93MRMNEKV;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HandToHand/Info.plist;
+				INFOPLIST_FILE = HandToHand/Resouces/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
@@ -595,6 +763,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		20EDFB6829072B9800BD4B8C /* XCRemoteSwiftPackageReference "EKUIKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/emvakar/EKUIKit.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		20EDFB6929072B9800BD4B8C /* EKUIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 20EDFB6829072B9800BD4B8C /* XCRemoteSwiftPackageReference "EKUIKit" */;
+			productName = EKUIKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 20EDFB1A2907236700BD4B8C /* Project object */;
 }
